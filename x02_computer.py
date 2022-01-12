@@ -9,9 +9,9 @@ output:
 2 : scissors
 """
 import random
-x = "Rock"
-y = "Paper"
-z = "Scissors"
+x = "rock"
+y = "paper"
+z = "scissors"
 def computerChoice():
   selection = random.randint(0,2)
   if selection == 0:
@@ -22,7 +22,7 @@ def computerChoice():
     return z
   
   
-  return value
+
 
 
 if __name__ == "__main__":
